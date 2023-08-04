@@ -1,0 +1,168 @@
+body {
+  background-image: linear-gradient(rgba(0, 255, 255, 0.349), pink);
+  background-repeat:repeat-x;
+  height: 100vh;
+ background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  justify-content: space-around;
+  background-color: rgb(142, 45, 142);
+  height: 50px;
+  width: 100%;
+}
+
+.changelink {
+  margin-left: 40px;
+  text-decoration: underline;
+  font-family: 'Playfair Display', serif;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+  /* margin-left: 300px; */
+  
+  color: #ffff;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+table {
+  width: 90%;
+  margin-left: 70px;
+  margin-top: 20px;
+  height: 470px;
+  background-size: cover;
+  background-color: #ffff;
+  border-collapse: collapse;
+}
+
+table tr {
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ gap: 20px;
+  width: 240px;
+  height: 40px;
+margin-left:66%;
+
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #ffff;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 2px 2px 7px 9px #86c7c567;
+  transition: width 2s;
+}
+
+
+.formbox{
+  /* background-color: aqua; */
+position: relative;
+height: 450px;
+
+}
+label{
+  font-size: 23px;
+}
+#name1{
+
+  position: absolute;
+  width: 50%;
+  left: 5%;
+/* left:70px; */
+}
+#name{
+  height: 50px;
+  
+  width: 50%;
+  background-color: none;
+}
+#age1{
+  width: 50%;
+  position: absolute;
+left: 50%;
+
+}
+#age{
+  height: 50px;
+  width: 50%;
+}
+#Course1{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+#Course{
+  height: 50px;
+  width: 50%;
+}
+#Batch1{
+  width: 50%;
+  position: absolute;
+left: 50%;
+top: 50%;
+}
+#Batch{
+  height: 50px;
+  width: 50%;
+}
+#submitBtn{
+  width: 13%;
+  /* position: absolute; */
+left: 50%;
+}
+#CancelBtn{
+  width: 13%;
+  position: absolute;
+left: 15%;
+top: 81%;
+}
+@media only screen and (max-width:700px) and (min-width:400px){
+  #submitBtn{
+    position: relative;
+left: -160px;
+width: 30%;
+  }
+  #CancelBtn{
+    position: relative;
+    left: 2%;
+    bottom: 40px;
+    width: 30%;
+  }
+  #mainbtn{
+position: relative;
+left: -40%;
+  }
+  table{
+    margin-left: 17px;
+  }
+  button:hover{
+    box-shadow: 2px 2px 17px 19px #86c7c567;
+    transition: width 2s;
+  }
+}
